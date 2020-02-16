@@ -5,6 +5,7 @@ author: "E Wallace"
 author_handle: "ew"
 image: 
 category: data
+published: false
 tags: [data, yeast, heat shock, aggregation]
 ---
 

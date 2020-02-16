@@ -4,7 +4,7 @@ title: "Website Under Construction"
 description: ""
 author: "Brian Gerwe"
 author_handle: Brian
-category: blog
+category: data
 published: true
 theme: lab
 tags: []
