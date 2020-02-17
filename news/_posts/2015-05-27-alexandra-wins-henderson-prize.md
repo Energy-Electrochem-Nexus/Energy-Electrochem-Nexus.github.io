@@ -5,7 +5,7 @@ author: "D. Allan Drummond"
 author_handle: "dad"
 image: /assets/images/news/default-news.png
 category: news
-published: true
+published: false
 tags: [publication]
 ---
 [Alexandra][1]'s thesis has [won][3] the [Lawrence J. Henderson Prize][2], given to the most meritorious thesis submitted to the Board of Tutors in Biochemical Sciences at [Harvard](http://www.harvard.edu).

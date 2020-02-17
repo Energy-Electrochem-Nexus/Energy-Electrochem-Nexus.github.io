@@ -8,24 +8,24 @@ highlighter: rouge
 
 markdown: kramdown
 
-repository: drummondlab/drummondlab.github.io
+repository: Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Drummond Lab
-tagline: Molecular basis of cellular sensing and responses
+title : Energy Electrochem Nexus
+tagline: High Temperature Electrocatalysis for Energy Storage and Conversion
 institution:
-  url: http://www.uchicago.edu
-  name: The University of Chicago
+  url: http://www.washington.edu
+  name: The University of Washington
 department:
-  url: http://bmb.uchospitals.edu
-  name: Biochemistry & Molecular Biology
+  url: http://cheme.washington.edu
+  name: Chemical Engineering
 author :
-  name : D. Allan Drummond
-  email : dadrummond@uchicago.edu
-  github : dad
-  twitter : dadrummond
+  name : Brian Gerwe
+  email : Brian.S.Gerwe@gmail.com
+  github : BSGerwe
+  twitter : BrianSGerwe
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -36,7 +36,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://drummondlab.org
+production_url : Energy-Electrochem-Nexus # https://energy-electrochem-nexus.github.io/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

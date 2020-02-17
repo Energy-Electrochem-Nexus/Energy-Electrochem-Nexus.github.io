@@ -4,6 +4,7 @@ title: "Evolution of protein synthesis"
 handle: evolution-of-translation
 image: /assets/images/projects/evolution-of-translation.svg
 category: project
+published: false
 tags: [evolution, natural selection, codon usage]
 ---
 {% include JB/setup %}
