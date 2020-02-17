@@ -5,7 +5,6 @@ author: "D. Allan Drummond"
 author_handle: "dad"
 image: /assets/images/news/default-news.png
 category: news
-published: false
 tags: [publication]
 ---
 [Jared] got his Ph.D. in [Andy Martin's lab][1] at Berkeley working on the mechanisms of proteasome function.

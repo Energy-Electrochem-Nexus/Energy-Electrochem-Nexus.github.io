@@ -5,7 +5,7 @@ description: ""
 author: "D. Allan Drummond"
 author_handle: dad
 category: blog
-published: false
+published: true
 theme: lab
 tags: []
 ---
