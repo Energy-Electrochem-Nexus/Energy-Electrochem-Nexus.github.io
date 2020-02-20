@@ -49,16 +49,17 @@ Enter your local repository and check out the `staging` branch, where you'll mak
 If you have cloned a copy of the repository on your machine, you might also want to make changes or additions to files and commit them to the main branch. 
 General steps to commit files to GitHub can be found below, as well as few additional ones that willallow for oushing files to the main branch for this website. 
 
-* git status
-* git add + file
-* git commit -m " add commit message to be displayed on GitHub
+    git status
+    git add + file
+    git commit -m " add commit message to be displayed on GitHub
 
 Before you can complete the commit you will also have to run the following commands:
 
-* git remote set-url origin https://github.com/UW-EEN/UW-EEN.github.io.git
-* git fetch origin
-* git rebase origin/staging
-* git push
+    git remote set-url origin https://github.com/UW-EEN/UW-EEN.github.io.git
+	[the step above will beed to be run only the first time]
+    git fetch origin
+    git rebase origin/staging
+    git push
 
 
 ## Overview of the structure
