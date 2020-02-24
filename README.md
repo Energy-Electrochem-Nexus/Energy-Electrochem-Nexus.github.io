@@ -44,6 +44,24 @@ Enter your local repository and check out the `staging` branch, where you'll mak
 	cd Energy-Electrochem-Nexus.github.io
 	git checkout staging
 
+## How to commit files to GitHub
+
+If you have cloned a copy of the repository on your machine, you might also want to make change or add files and commit them to the main branch. 
+General steps to commit files to GitHub can be found below, as well as few additional ones that willallow for oushing files to the main branch for this website. 
+
+    git status
+    git add <filename(s)>
+    git commit -m "<add commit message> " 
+
+Before you can complete the commit you will also have to run the following commands:
+
+    git remote set-url origin https://github.com/UW-EEN/UW-EEN.github.io.git
+	[the step above will beed to be run only the first time]
+    git fetch origin
+    git rebase origin/staging
+    git push
+
+
 ## Overview of the structure
 
 Let's assume you're familiar with HTML pages. A site is a collection of HTML pages. For our site (and many others), there are page types, like a paper page, or a lab member page, which are the same in design but different in content. In the web-accessible site, these are indeed different pages. However, as you might hope, they are _generated_ from a single template file filled in with information from many paper- or member-specific data files. This generation is done every time the site changes; it's handled by GitHub Pages, the service we use.
