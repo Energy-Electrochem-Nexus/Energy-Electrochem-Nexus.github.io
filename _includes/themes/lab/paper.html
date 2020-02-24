@@ -162,6 +162,13 @@ with gratitude.
 			</div>
 			<div class="bigspacer"></div>			
 			{% endif %}
+            {% if page.dimensions_id %}
+            <div class="smallhead subtle">
+				Dimensions
+            </div>
+            <span class="__dimensions_badge_embed__" data-doi={{ page.doi }}></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+			<div class="bigspacer"></div>
+            {% endif %}
 			<div class="smallhead subtle">
 				Share
 			</div>

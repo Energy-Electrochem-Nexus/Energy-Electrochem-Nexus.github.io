@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Website Under Construction"
+title: Website Under Construction. More papers being added, but in the meantime check out <a href="https://scholar.google.com/citations?user=QDsxOlUAAAAJ&hl=en&oi=ao"> Professor Adler's Google Scholar Page </a>
 description: ""
 author: "Brian Gerwe"
 author_handle: Brian
