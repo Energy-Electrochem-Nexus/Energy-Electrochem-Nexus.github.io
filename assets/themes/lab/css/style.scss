@@ -159,7 +159,7 @@ strong {
 }
 
 .logobox {
-	height: 180px;
+	height: 0px;
 	line-height: 65px;
 	font-weight: $heavy-font-weight;
 	display: table-cell; 
@@ -239,15 +239,39 @@ strong {
   z-index:2;
 }
 
+.carousel-fade .carousel-control {
+  z-index: 2;
+  color: #000000;
+  width: 30px;
+}
+
+.carousel-fade .carousel-control.left .glyphicon {
+  left: 0;
+  margin-left: 0;
+}
+
+.carousel-fade .carousel-control.right .glyphicon {
+  right: 0;
+  margin-right: 0;
+}
+
 .carousel-indicators {
   bottom:0px;
 }
 
+.carousel-indicators li {
+    background-color: #fff;
+    background-color: rgba(50,50,50,.5);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
 .carousel-overlay { 
 	position:absolute;
-	z-index:12;
-	top:50%;
-	left:0;
+	z-index:3;
+	top:40%;
 	width:100%;
 	text-align:center;
 }
