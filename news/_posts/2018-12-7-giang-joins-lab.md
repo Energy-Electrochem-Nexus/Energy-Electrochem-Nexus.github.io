@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Lê Trà Giang (Zang Le) joins the UW Energy Electrochem Nexus"
+title: "Lê Trà Giang (Zang Le) joins the Solid State Electrochemistry Lab"
 author: "Brian Gerwe"
 author_handle: "Brian"
 image: /assets/images/news/default-news.png

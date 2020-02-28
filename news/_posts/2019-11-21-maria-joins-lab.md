@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Maria Politi joins the UW Energy Electrochem Nexus"
+title: "Maria Politi joins the Solid State Electrochemistry Lab"
 author: "Brian Gerwe"
 author_handle: "Brian"
 image: /assets/images/news/default-news.png
