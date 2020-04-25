@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Maria Politi joins the Solid State Electrochemistry Lab"
+title: "Maria Politi joins the Solid State Electrochemistry and Energy Lab"
 author: "Brian Gerwe"
 author_handle: "Brian"
 image: /assets/images/news/default-news.png
