@@ -1,6 +1,6 @@
 # The UW Energy Electrochem Nexus main website
 
-Our website, http://UW-EEN.github.io, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's site](https://github.com/drummondlab/drummondlab.github.io) which in turn was pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our website, http://UW-SSEEL.github.io, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's site](https://github.com/drummondlab/drummondlab.github.io) which in turn was pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
 Our site will essentially copy their format and incorporate minor changes as we start to learn some website development. Go [here](http://drummondlab.org/about.html) to find more details about the template design.
 
 # Editing the site
@@ -33,7 +33,7 @@ If you didn't receive any errors, you should be ready to start contributing!
 
 ## Clone the repository
 
-If you're a member of the [Energy Electrochem Nexus team](https://github.com/orgs/Energy-Electrochem-Nexus/people), you have access to the website repository.
+If you're a member of the [Solid State Electrochemistry and Energy Lab team](https://github.com/orgs/UW-SSEEL/people), you have access to the website repository.
 
 To clone the repository, making a local copy on your machine:
 
@@ -55,7 +55,7 @@ General steps to commit files to GitHub can be found below, as well as few addit
 
 Before you can complete the commit you will also have to run the following commands:
 
-    git remote set-url origin https://github.com/UW-EEN/UW-EEN.github.io.git
+    git remote set-url origin https://github.com/uw-sseel/uw-sseel.github.io.git
 	[the step above will beed to be run only the first time]
     git fetch origin
     git rebase origin/staging
@@ -72,7 +72,7 @@ The template files are weird-looking HTML files residing in the `_includes/theme
 
 For most common actions---adding a lab member, paper, protocol, or news item---you'll be making a new Markdown file in the proper location, naming it properly, and filling in the required fields. In almost all cases, you can (and should!) copy an existing item, change the name, and change its content, rather than trying to write a Markdown document from scratch.
 
-For example, suppose you want to add a news item, which will appear on the front page, announcing that you have created a yeast strain capable of secreting high-quality chardonnay. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
+For example, suppose you want to add a news item, which will appear on the front page, announcing that you have been featured on a news site for cutting edge engineering education. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
 
 	cp 2017-10-7-bg-jmw-ecs-232nd.md 2019-12-10-stu-flipped-class.md
 
@@ -127,7 +127,7 @@ and push to GitHub:
 
 	git push
 
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://Energy-Electrochem-Nexus.github.io looks the way you intend.
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://UW-SSEEL.github.io looks the way you intend.
 
 Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
 
@@ -139,7 +139,7 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 
 ### To-dos
 
-See Issues on [the site](https://github.com/Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io).
+See Issues on [the site](https://github.com/UW-SSEEL/UW-SSEEL.github.io).
 
 
 ## License
