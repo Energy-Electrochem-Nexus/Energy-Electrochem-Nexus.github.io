@@ -1,4 +1,4 @@
-# The UW Energy Electrochem Nexus main website
+# The UW Solid State Electrochemistry and Energy main website
 
 Our website, http://UW-SSEEL.github.io, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's site](https://github.com/drummondlab/drummondlab.github.io) which in turn was pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
 Our site will essentially copy their format and incorporate minor changes as we start to learn some website development. Go [here](http://drummondlab.org/about.html) to find more details about the template design.
@@ -37,11 +37,11 @@ If you're a member of the [Solid State Electrochemistry and Energy Lab team](htt
 
 To clone the repository, making a local copy on your machine:
 
-	git clone https://github.com/Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io
+	git clone https://github.com/UW-SSEEL/UW-SSEEL.github.io
 
 Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
 
-	cd Energy-Electrochem-Nexus.github.io
+	cd UW-SSEEL.github.io
 	git checkout staging
 
 ## How to commit files to GitHub
