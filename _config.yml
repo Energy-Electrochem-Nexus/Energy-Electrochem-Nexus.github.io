@@ -1,7 +1,7 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 # permalink: /:categories/:year/:month/:day/:title 
-permalink: /:categories/:title 
+# permalink: /:categories/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".sublime-project", ".sublime-workspace"]
 highlighter: rouge
@@ -13,7 +13,8 @@ repository: UW-SSEEL/UW-SSEEL.github.io
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Solid State Electrochemistry and Energy Lab
+title : Solid
+acronym: SSEEL
 tagline: High Temperature Electrocatalysis for Energy Storage and Conversion
 institution:
   url: http://www.washington.edu
