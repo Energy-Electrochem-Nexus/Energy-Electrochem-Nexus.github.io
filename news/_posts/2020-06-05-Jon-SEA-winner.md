@@ -10,8 +10,8 @@ tags: [art]
 ---
 {% include JB/setup %}
 
-Last week out department announced the winners of our annual ["Science & Engineering as Art Competition"]. The competition was established to highlight the beauty we encounter everyday in our research.
-Two SSEEL members ([Jon][1] and [Brian][2]) submitted entries for the competition highlighting core technologies used in their respective projects. Against a field of eight total entries, [Jon][1] emerged victorious, securing 1st place with his entry "Light at the End of the Tunnel". Congratulations Jon!
+Last week our department announced winners of the annual ["Science & Engineering as Art Competition"]. The competition was established to highlight the beauty we encounter everyday in our research.
+Two SSEEL members, ([Jon][1] and [Brian][2]), submitted entries for the competition highlighting core technologies used in their respective projects. Against a field of eight total entries, [Jon][1] emerged victorious, securing 1st place with his entry "Light at the End of the Tunnel". Congratulations Jon!
 
 <p align="center">
 <img src="/assets/images/news/SEA2020_1_light.png" width="50%">
