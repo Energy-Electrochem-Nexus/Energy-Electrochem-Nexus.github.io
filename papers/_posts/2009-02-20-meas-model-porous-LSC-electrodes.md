@@ -9,7 +9,7 @@ volume: 156
 issue: 4
 pages: B513-B525
 authors: "Lu YX, Kreller CR, Adler SB"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/measurement-modeling-porous-LSC.svg
 redirect_from: 
 fulltext: 
 # pdf: 

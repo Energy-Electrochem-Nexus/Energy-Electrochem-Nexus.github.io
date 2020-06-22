@@ -9,7 +9,7 @@ volume: 163
 issue: 9
 pages: F1107-F1114
 authors: "Geary TC, Lee D, Shao-Horn Y, Adler SB"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/NLEIS-LSCF-thin-films.svg
 redirect_from: 
 fulltext: 
 # pdf: 

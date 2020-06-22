@@ -9,7 +9,7 @@ volume: 119
 issue:
 pages: 205110
 authors: "Eshghinejad A, Esfahani EN, Wang P, Xie Sm Geary TC, Adler SB, Li JY"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/STIM.svg
 redirect_from: 
 fulltext: 
 # pdf: 

@@ -9,7 +9,7 @@ volume: 11
 issue: 
 pages: 23188-23196
 authors: "Huang BY, Esfahani EN, Yu J, Gerwe BS, Adler SB, Li JY"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/high-throughput-ESM.svg
 redirect_from: 
 fulltext: 
 # pdf: 
@@ -46,4 +46,8 @@ Dynamic strain based atomic force microscopy (AFM) modes often fail at the inter
  physics-informed principal component analysis (PCA), speeding data processing by several orders of magnitude. This approach can be applied to a variety
  of AFM modes for studying a wide range of materials and structures on the nanoscale.
 
+# Graphical Abstract
 
+<p align="center">
+<img src="/assets/images/papers/high-throughput-ESM_GraphicalAbstract.jpg" width="50%">
+</p>

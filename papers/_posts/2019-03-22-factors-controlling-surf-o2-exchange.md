@@ -9,7 +9,7 @@ volume: 10
 issue: 
 pages: 1346
 authors: "Cao Y, Gadre MH, Ngo AT, Adler SB, Morgan DD"
-image: /assets/images/papers/default-paper.svg
+image: /assets/images/papers/factors-surf-ox-exchange.svg
 redirect_from: 
 fulltext: 
 # pdf: 
