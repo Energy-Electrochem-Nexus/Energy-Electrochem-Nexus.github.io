@@ -38,7 +38,9 @@ tags: [COBRA, thin film, LSC]
 
 Heterostructured oxides have shown unusual electrochemical properties including enhanced catalytic activity,
  ion transport, and stability. In particular, it has been shown recently that the activity of oxygen electrocatalysis
- on the Ruddlesden–Popper/perovskite (La1-ySry)2CoO4±δ/La1–xSrxCoO3−δ heterostructure is remarkably enhanced relative
+ on the Ruddlesden–Popper/perovskite
+ (La<sub>1-y</sub>Sr<sub>y</sub>)<sub>2</sub>CoO<sub>4±δ</sub>/La<sub>1–x</sub>Sr<sub>x</sub>CoO<sub>3−δ</sub>
+ heterostructure is remarkably enhanced relative
  to the Ruddlesden–Popper and perovskite constituents. Here we report the first atomic-scale structure and composition of
  (La<sub>1–y</sub>Sr<sub>y</sub>)<sub>2</sub>CoO<sub>4±δ</sub>/La<sub>1–x</sub>Sr<sub>x</sub>CoO<sub>3−δ</sub> grown on
  SrTiO<sub>3</sub>. We observe anomalous strontium segregation from the perovskite to the interface and the Ruddlesden–Popper
