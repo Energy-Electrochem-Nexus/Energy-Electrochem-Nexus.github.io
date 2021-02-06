@@ -51,5 +51,5 @@ Transition metal oxides with mobile electrons and oxygen ions (mixed conductors)
 # Graphical Abstract
 
 <p align="center">
-<img src="assets/images/papers/MIEC-mechanism.jpg" width="50%">
+<img src="/assets/images/papers/MIEC-mechanism.jpg" width="50%">
 </p>
