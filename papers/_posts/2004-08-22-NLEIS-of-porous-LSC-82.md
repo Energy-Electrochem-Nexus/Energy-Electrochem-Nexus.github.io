@@ -30,7 +30,7 @@ preprint: false
 embargo: false
 peerreview: true
 review: false
-tags: [ceria, AFM, ESM]
+tags: [NLEIS, impedance, LSC]
 ---
 {% include JB/setup %}
 
