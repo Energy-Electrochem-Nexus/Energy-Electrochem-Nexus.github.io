@@ -46,5 +46,5 @@ A universal challenge facing the development of electrochemical materials is our
 # Graphical Abstract
 
 <p align="center">
-<img src="/assets/images/papers/STIM-2017.jpeg" width="50%">
+<img src="/assets/images/papers/STIM-2017.jpeg">
 </p>
