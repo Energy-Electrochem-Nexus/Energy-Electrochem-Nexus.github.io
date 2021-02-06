@@ -42,3 +42,8 @@ A framework is presented for defining charge-transfer and non-charge-transfer pr
  of chemical species. In the case of a porous mixed conducting oxygen electrode, oxygen reduction is limited by chemical reaction and diffusion, and may occur up to
  20 microns from the electrochemical (charge-transfer) interface.
 
+# Graphical Abstract
+
+<p align="center">
+<img src="/assets/images/papers/limitations-charge-transfer-models-MIEC.svg" width="50%">
+</p>
