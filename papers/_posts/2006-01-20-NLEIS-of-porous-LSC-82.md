@@ -1,8 +1,8 @@
 ---
 layout: paper
 title: "Nonlinear electrochemical impedance spectroscopy for solid oxide fuel cell cathode materials"
-year: "2004"
-shortref: "Jamie Wilson <i>et al.</i> 2004 <i>Electrochimica Acta</i> <b>51</b> 1389–1402"
+year: "2006"
+shortref: "Jamie Wilson <i>et al.</i> 2006 <i>Electrochimica Acta</i> <b>51</b> 1389–1402"
 nickname: nleis-for-interpretation-of-electrode-reaction
 journal: "Electrochimica Acta"
 volume: 51
@@ -36,7 +36,8 @@ tags: [NLEIS, impedance, LSC]
 
 # Abstract 
 
-This paper reports initial studies of porous La0.8Sr0.2CoO3−δ electrodes on samaria-doped ceria using nonlinear electrochemical impedance spectroscopy
+This paper reports initial studies of porous La<sub>0.8</sub>Sr<sub>0.2</sub>CoO<sub>3−δ</sub>
+ electrodes on samaria-doped ceria using nonlinear electrochemical impedance spectroscopy
  (NLEIS). While traditional electrochemical impedance spectroscopy (EIS) involves measuring the linear response to small-amplitude potential or current
  perturbations, NLEIS probes both the linear and higher harmonic contributions to the potential upon excitation by a moderately sized current modulation.
  We find that these higher harmonic signals often contain specific resonant features that may help distinguish nonlinear physical processes governing
