@@ -3,7 +3,7 @@ layout: news
 title: "Adler interviewed about Greener Data Center"
 author: "Giang Le"
 author_handle: "Giang"
-image: /assets/images/news/green-data-center.png
+image: /assets/images/news/default-news.png
 category: news
 published: true
 tags: [data center, renewable storage, fuel cell]
