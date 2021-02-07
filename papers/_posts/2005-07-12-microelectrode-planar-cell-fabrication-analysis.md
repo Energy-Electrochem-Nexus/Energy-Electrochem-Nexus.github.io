@@ -9,7 +9,7 @@ volume: 152
 issue: 
 pages: A1668
 authors: "Liliya A. Dunyushkina, Yunxiang Lu and Stuart B. Adler"
-image: /assets/images/papers/microelectrode-config.jpg
+image: /assets/images/papers/microelectode-config.png
 redirect_from: 
 fulltext: 
 # pdf: 
@@ -45,5 +45,5 @@ Planar cells incorporating a microelectrode as the working electrode were prepar
  # Graphical Abstract
 
 <p align="center">
-<img src="/assets/images/papers/microelectrode-config.jpg" width="50%">
+<img src="/assets/images/papers/microelectode-config.png" width="50%">
 </p>
