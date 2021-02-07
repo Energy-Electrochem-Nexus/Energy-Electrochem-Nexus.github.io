@@ -1,6 +1,6 @@
 ---
 layout: news
-title: "Adler interviewed about Greener Data Center"
+title: "Stu interviewed about Greener Data Center"
 author: "Giang Le"
 author_handle: "Giang"
 image: /assets/images/news/default-news.png
