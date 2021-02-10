@@ -2,13 +2,13 @@
 layout: paper
 title: "Full-spectrum nonlinear response of a sinusoidally modulated rotating disk electrode"
 year: "2005"
-shortref: "Jamie R. Wilson <i>et al.</i> 2005 <i>Physics of Fluids</i> <b>17</b> 063601"
+shortref: "Jamie Wilson <i>et al.</i> 2005 <i>Physics of Fluids</i> <b>17</b> 063601"
 nickname: NLEIS-rotating-disk-electrode
 journal: "Physics of Fluids"
 volume: 17
 issue: 
 pages: 063601
-authors: "Jamie R. Wilson, Stuart B. Adler, and Daniel T. Schwartz"
+authors: "Jamie Wilson, Stuart B. Adler, and Daniel T. Schwartz"
 image: /assets/images/papers/rotating-disk-electrode-NLEIS.jpeg
 redirect_from: 
 fulltext: 
