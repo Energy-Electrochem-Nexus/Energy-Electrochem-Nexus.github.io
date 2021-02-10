@@ -2,13 +2,13 @@
 layout: paper
 title: "Three-dimensional reconstruction of a solid-oxide fuel-cell anode"
 year: "2006"
-shortref: "James Wilson <i>et al.</i> 2006 <i>Nature Materials</i> <b>5</b> 541-544"
+shortref: "Jamie Wilson <i>et al.</i> 2006 <i>Nature Materials</i> <b>5</b> 541-544"
 nickname: FIB–SEM-3D-imaging-of-Ni-YSZ-porous-anode
 journal: "Nature Materials"
 volume: 5
 issue: 
 pages: 541-544
-authors: "James R. Wilson, Worawarit Kobsiriphat, Roberto Mendoza, Hsun-Yi Chen, Jon M. Hiller, Dean J. Miller, Katsuyo Thornton, Peter W. Voorhees, Stuart B. Adler & Scott A. Barnett"
+authors: "Jamie Wilson, Worawarit Kobsiriphat, Roberto Mendoza, Hsun-Yi Chen, Jon M. Hiller, Dean J. Miller, Katsuyo Thornton, Peter W. Voorhees, Stuart B. Adler and Scott A. Barnett"
 image: /assets/images/papers/FIB-imaging-Ni-anode.png
 redirect_from: 
 fulltext: 
