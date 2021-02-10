@@ -7,7 +7,7 @@ handle: Yunxiang
 email: false
 twitter: false
 scholar: false
-image: /assets/images/team/default-member.png
+image: /assets/images/team/Yunxiang-Lu-linkedin.jpeg
 cv: false
 alum: true
 ---
