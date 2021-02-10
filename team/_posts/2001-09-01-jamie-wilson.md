@@ -6,7 +6,7 @@ nickname: Jamie
 handle: Jamie
 email: false
 twitter: false
-scholar: 
+scholar: false
 image: /assets/images/team/Jamie-Wilson-linkedin.jpeg
 cv: false
 alum: true
