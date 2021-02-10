@@ -8,7 +8,7 @@ journal: "Nature Materials"
 volume: 5
 issue: 
 pages: 541-544
-authors: "James R. Wilson, Worawarit Kobsiriphat, Roberto Mendoza, Hsun-Yi Chen, Jon M. Hiller, Dean J. Miller, Katsuyo Thornton, Peter W. Voorhees, Stuart B. Adler & Scott A. Barnett"
+authors: "Jamie Wilson, Worawarit Kobsiriphat, Roberto Mendoza, Hsun-Yi Chen, Jon M. Hiller, Dean J. Miller, Katsuyo Thornton, Peter W. Voorhees, Stuart B. Adler & Scott A. Barnett"
 image: /assets/images/papers/FIB-imaging-Ni-anode.png
 redirect_from: 
 fulltext: 
