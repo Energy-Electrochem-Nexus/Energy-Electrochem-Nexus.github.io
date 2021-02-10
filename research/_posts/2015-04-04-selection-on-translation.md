@@ -1,12 +1,12 @@
 ---
 layout: project
-title: "Evolution of protein synthesis"
-handle: evolution-of-translation
+title: "Regulation by massive molecular assembly"
+tagline: "Proteins and RNA self-assemble and coassemble into massive, heterogeneous structures, with widespread regulatory consequences"
+handle: massive-assembly
 image: /assets/images/projects/electrochemistry-technique.jpeg
 category: project
-
-tags: [evolution, natural selection, codon usage]
+tags: [yeast, translation, selection, quinary]
 ---
 {% include JB/setup %}
 
-Natural selection on protein synthesis sculpts genomes in profound ways.
+Stress triggers proteins to clump together into massive assemblies. 
