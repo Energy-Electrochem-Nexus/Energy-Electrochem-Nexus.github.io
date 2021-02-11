@@ -13,6 +13,8 @@ alum: true
 ---
 Honorio completed his PhD under co-supervision of Stu and Prof. Eric Stuve, developing field ionization technique to study chemical reactions. 
 
+Honorio currently works at BenAn Energy.
+
 [Dr. Adler]: /team/stu-adler
 [University of Washington]: http://www.washington.edu
 [Chemical Engineering]: http://cheme.washington.edu
