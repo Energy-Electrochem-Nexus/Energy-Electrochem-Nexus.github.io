@@ -22,7 +22,6 @@ osf:
 {% include JB/setup %}
 
 # <img src="/assets/images/projects/NLEIS.jpeg" width="40%">
-
 A common theme of our research is the use of transient voltage-current response (impedance and nonlinear impedance)
  to probe factors limiting electrode performance or causing electrode degradation. We often couple these measurements
  with operando techniques to probe more directly (or locally) what is happening in or around the electrode materials
