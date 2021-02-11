@@ -13,19 +13,14 @@ navorder: 2
 {% endfor %}
 
 {% assign software = "" | split: "" %}
-{% assign analyzing = "" | split: "" %}
-{% assign complete = "" | split: "" %}
-{% assign other = "" | split: "" %}
+{% assign focus = "" | split: "" %}
 {% assign temp = site.categories.projects | reverse %}
+
 {% for item in temp %}
     {% if item.type == "software" %}
         {% assign software = software | push: item %}
-    {% elsif item.status == "analysis" %}
-        {% assign analyzing = analyzing | push: item %}
-    {% elsif item.status == "complete" %}
-        {% assign complete = complete | push: item %}
-    {% else %}
-        {% assign other = other | push: item %}
+    {% elsif item.type == "focus" %}
+        {% assign focus = focus | push: item %}
     {% endif %}
 {% endfor %}
 
@@ -37,12 +32,12 @@ navorder: 2
 {{ researchpage.content }}
 
 <div class="bigspacer"></div>
-<div class="title text-center">Current Projects (Active Data Analysis)</div>
+<div class="title text-center">Research Focus</div>
 <div class="smallspacer"></div>
 <hr />
 
 <table align="center" ; width=1250px>
-    {% tablerow product in analyzing cols:2 %}
+    {% tablerow product in focus cols:2 %}
     {% if product.image %}
         {% assign image = product.image %}
     {% else %}
@@ -99,44 +94,6 @@ navorder: 2
                             <a href="{{ product.url }}" class="off">[PILOT] {{ product.title }}</a>
                         {% else %}
                             <a href="{{ product.url }}" class="off">{{ product.title }}</a>
-                        {% endif %}
-                    </div>
-                    <div class="media-body">
-                        {{ product.tagline }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="smallspacer"></div>
-    {% endtablerow %}
-</table>
-
-<div class="bigspacer"></div>
-<div class="title text-center">Completed Projects</div>
-<div class="smallspacer"></div>
-<hr />
-
-<table align="center" ; width=1250px>
-    {% tablerow product in complete cols:2 %}
-    {% if product.image %}
-    {% assign image = product.image %}
-    {% else %}
-    {% assign image = "/assets/images/placeholder.png" %}
-    {% endif %}
-
-    <div class="col-md-2.5 paperbox" style="min-width: 575px">
-        <div class="media" style="width:525px; height:150px">
-            <div class="media">
-                <a class="pull-left" href="{{ product.url }}">
-                    <img width=100 class="media-object" src="{{ image }}" style="border:1px solid #808080;">
-                </a>
-                <div class="media-body">
-                    <div class="smallhead media-heading">
-                        {% if product.type contains "pilot" %}
-                        <a href="{{ product.url }}" class="off">[PILOT] {{ product.title }}</a>
-                        {% else %}
-                        <a href="{{ product.url }}" class="off">{{ product.title }}</a>
                         {% endif %}
                     </div>
                     <div class="media-body">
