@@ -10,7 +10,7 @@ website:
 grant:
 grant_url:
 image: /assets/images/projects/NLEIS.jpeg
-tagline: Digging deeper than voltage-current measurements.
+tagline: Making the most of voltage-current measurements.
 tags: [EIS, NLEIS]
 
 # Data and code
