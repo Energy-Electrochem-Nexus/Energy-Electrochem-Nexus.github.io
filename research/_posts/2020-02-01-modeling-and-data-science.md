@@ -9,7 +9,7 @@ type: focus
 website: 
 grant:
 grant_url:
-image: /assets/images/projects/reaction-mechanism.png
+image: /assets/images/projects/reaction-mechanism.jpg
 tagline: 
 tags: 
 
@@ -21,7 +21,7 @@ osf:
 ---
 {% include JB/setup %}
 
-# <img src="/assets/images/projects/reaction-mechanism.png" width="40%">
+# <img src="/assets/images/projects/reaction-mechanism.jpg" width="40%">
 Almost all of our current members have worked or are working on physics-based models, from the intricate reaction mechanism of oxygen vacancy in
  materials to system-level SOFC stack. We continue our modeling work and now with the integration of data science and machine learning tools to interpret
  measured responses in terms of physics, chemistry, and operational parameters.
