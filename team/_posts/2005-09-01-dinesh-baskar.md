@@ -12,6 +12,9 @@ cv: false
 alum: true
 ---
 Dinesh developed an experimental method to measure magnetization of transitional metal oxide perovskites at high temperature and utilized the technique to study LSC and LSF mixed ionic electronic conductors.
+
+Dinesh is now a Key Account Technologist at Lam Research
+
 [Dr. Adler]: /team/stu-adler
 [University of Washington]: http://www.washington.edu
 [Chemical Engineering]: http://cheme.washington.edu
