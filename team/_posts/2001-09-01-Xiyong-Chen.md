@@ -13,7 +13,7 @@ alum: true
 ---
 Xiyong completed her/his PhD work under Stu supervision studying various aspects of thermo-mechanical properties of mixed ionic electronic conductors.
 
-Xiyong is an assistant professor at Guangxi University.
+Xiyong is now Associate Administrative Director at Guangxi Key Laboratory of Processing for Nonferrous Metals and Featured Materials.
 
 [Dr. Adler]: /team/stu-adler
 [University of Washington]: http://www.washington.edu
