@@ -6,33 +6,105 @@ group: navigation
 navorder: 2
 ---
 {% include JB/setup %}
-<div class="bigspacer"></div>
-<div class="construction">
-  <hr/>
-  We are working on this page. Stay tuned.
-  <hr/>
-</div>
-{% for project in site.categories.research %}
-<div class='row'>
-  <!--
-  <div class='row'>
-    <div class='col-md-12'>
-    <div class="media">
-      <a class="project-image" href="{{ project.url }}">
-        <img class="media-object" src="{{ project.image }}">
-      </a>
-    </div>
-  </div>
-  -->
-  <div class='row'>
-    <div class="col-md-4 paperbox">
-      <div class="smallhead media-heading"><a href="{{ project.url }}" class="off">{{ project.title }}</a></div>
-    </div>
-    <div class='col-md-8'>
-      {{ project.content }}
-    </div>
-  </div>
-</div>
+{% for page in site.categories.misc %}
+  {% if page.research %}
+  	{% assign researchpage = page %}
+  {% endif %}
 {% endfor %}
+
+{% assign software = "" | split: "" %}
+{% assign focus = "" | split: "" %}
+{% assign temp = site.categories.research | reverse %}
+
+{% for item in temp %}
+    {% if item.type == "software" %}
+        {% assign software = software | push: item %}
+    {% elsif item.type == "focus" %}
+        {% assign focus = focus | push: item %}
+    {% endif %}
+{% endfor %}
+
+<div class="bigspacer"></div>
+<div class="title text-center">Our Mission</div>
+<div class="smallspacer"></div>
+<hr/>
+
+{{ researchpage.content }}
+
+<div class="bigspacer"></div>
+<div class="title text-center">Research Focus</div>
+<div class="smallspacer"></div>
+<hr />
+
+<table align="center" ; width=1250px>
+    {% tablerow product in focus cols:2 %}
+    {% if product.image %}
+        {% assign image = product.image %}
+    {% else %}
+        {% assign image = "/assets/images/placeholder.png" %}
+    {% endif %}
+
+    <div class="col-md-2.5 paperbox" style="min-width: 575px">
+        <div class="media" style="width:525px; height:150px">
+            <div class="media">
+                <a class="pull-left" href="{{ product.url }}">
+                    <img width=120 class="media-object" src="{{ image }}" style="border:1px solid #808080;">
+                </a>
+                <div class="media-body">
+                    <div class="smallhead media-heading">
+                        {% if product.type contains "pilot" %}
+                            <a href="{{ product.url }}" class="off">[PILOT] {{ product.title }}</a>
+                        {% else %}
+                            <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+                        {% endif %}
+                    </div>
+                    <div class="media-body">
+                        {{ product.tagline }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="smallspacer"></div>
+    {% endtablerow %}
+</table>
+
+<div class="bigspacer"></div>
+<div class="title text-center">Software</div>
+<div class="smallspacer"></div>
+<hr />
+
+<table align="center" ; width=1250px>
+    {% tablerow product in software cols:2 %}
+    {% if product.image %}
+    {% assign image = product.image %}
+    {% else %}
+    {% assign image = "/assets/images/placeholder-foss.png" %}
+    {% endif %}
+
+    <div class="col-md-2.5 paperbox" style="min-width: 575px">
+        <div class="media" style="width:525px; height:150px">
+            <div class="media">
+                <a class="pull-left" href="{{ product.url }}">
+                    <img width=120 class="media-object" src="{{ image }}" style="border:1px solid #808080;">
+                </a>
+                <div class="media-body">
+                    <div class="smallhead media-heading">
+                        {% if product.type contains "pilot" %}
+                            <a href="{{ product.url }}" class="off">[PILOT] {{ product.title }}</a>
+                        {% else %}
+                            <a href="{{ product.url }}" class="off">{{ product.title }}</a>
+                        {% endif %}
+                    </div>
+                    <div class="media-body">
+                        {{ product.tagline }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="smallspacer"></div>
+    {% endtablerow %}
+</table>
 
 <div class="bigspacer"></div>
