@@ -6,6 +6,7 @@ $font-stack:    Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $primary-color: #000000;
 $subtle-color: #95a5a6;
 $font-weight-base: 300;
+$font-weight-bold: 600;
 $heavy-font-weight: 700;
 
 $carousel-height: 350px;
@@ -337,7 +338,7 @@ strong {
 
 .smallhead {
 	font-size: 19px;
-	font-weight: $font-weight-base;
+	font-weight: $font-weight-bold;
 	line-height: 23px;
 }
 

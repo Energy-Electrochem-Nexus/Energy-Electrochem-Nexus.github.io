@@ -20,6 +20,10 @@
 			<div class="smallhead">
 				{{ member.position }}
 			</div>
+            <br/>
+            <div class="post">
+                {{ content }}
+            </div>
 		</div>
 	</div>				
 </div>
@@ -85,10 +89,12 @@
 		<div class="bigspacer"></div>			
 		{% endif %}						
 	</div>
-	<div class="col-md-8">	
+
+	<div class="col-md-8">
+        <!-- Historical (2021-03-21) content location    
 		<div class="post">
 			{{ content }}
-		</div>
+		</div> -->
 		
 		{% assign lastname = member.title | split: ' ' | last | append: " " %}
 		{% for paper in site.categories.papers %}
@@ -112,6 +118,7 @@
 			{% endfor %}
 		{% endif %}		
 		
+        <!-- Turned off because we don't make blog posts
 		{% for post in site.categories.blog %}
 			{% if member.handle == post.author_handle %}
 				{% assign postsq = true %}
@@ -128,7 +135,25 @@
 				{% endif %}
 			{% endfor %}
 		{% endif %}	
-		
+        -->
+        
+		{% assign firstname = member.title | split: ' ' | first %}
+		{% for news in site.categories.news %}
+			{% if news.content contains firstname or news.content contains member.handle or news.content contains member.nickname %}
+				{% assign newsq = true %}
+			{% endif %}
+		{% endfor %}
+
+		{% if newsq == true %}
+			<div class="bigspacer"></div>
+			<div class="head">News</div>
+			<div class="spacer"></div>
+			{% for news in site.categories.news %}
+				{% if news.content contains firstname or news.content contains member.handle or news.content contains member.nickname %}
+					<p><a href="{{ news.url }}" class="off">{{ news.title }}</a>
+				{% endif %}
+			{% endfor %}
+		{% endif %}		
 	</div>			
 	<div class="col-md-1"></div>
 </div>	
