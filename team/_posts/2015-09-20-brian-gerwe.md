@@ -8,7 +8,7 @@ email: gerweb@uw.edu
 twitter: EchemGerwe
 github: BGerwe
 scholar: 5RgmNhsAAAAJ
-image: /assets/images/team/Brian_Gerwe_GSS.jpg
+image: /assets/images/team/Gerwe_headshot.jpg
 cv: false
 alum: false
 ---
