@@ -11,6 +11,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+<> (This is a blog post from the Drummond lab. It's being kept in this repo to serve as an example of a good post with various sections, embedded images, and links )
+
 We've just published a [paper][1] on how a protein's ability to form hydrogels allows cells to sense and respond to stress.
 
 ### A bit of background

@@ -5,10 +5,10 @@ position: Graduate Student
 nickname: Brian
 handle: Brian
 email: gerweb@uw.edu
-twitter: BrianSGerwe
+twitter: EchemGerwe
 github: BGerwe
 scholar: 5RgmNhsAAAAJ
-image: /assets/images/team/Brian_Gerwe_GSS.jpg
+image: /assets/images/team/Gerwe_headshot.jpg
 cv: false
 alum: false
 ---
