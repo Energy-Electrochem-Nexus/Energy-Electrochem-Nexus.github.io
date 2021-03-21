@@ -7,7 +7,7 @@ handle: Cortney
 email: false
 twitter: false
 scholar: 
-image: /assets/images/team/default-member.png
+image: /assets/images/team/Kreller_headshot.jpg
 cv: false
 alum: true
 ---
