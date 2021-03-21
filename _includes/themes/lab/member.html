@@ -96,7 +96,7 @@
 			{{ content }}
 		</div> -->
 		
-		{% assign lastname = member.title | split: ' ' | last | append: " " %}
+		{% assign lastname = member.title | split: ' ' | last %} <!--  | append: " " %} -->
 		{% for paper in site.categories.papers %}
 			{% if paper.authors contains lastname %}
 				{% assign papersq = true %}
