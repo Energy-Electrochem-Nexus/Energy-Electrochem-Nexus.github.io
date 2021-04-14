@@ -8,7 +8,7 @@ category: news
 published: true
 tags: [students]
 ---
-Huge congratulations to [Jon Witt][1] Witt for successfully defending his PhD thesis to a packed (<i>virtual</i>) room. His thesis title is: 
+Huge congratulations to [Jon Witt][1] for successfully defending his PhD thesis to a packed (<i>virtual</i>) room. His thesis title is: 
 <b>Frequency Resolved Mass Spectrometry for Co-electrolysis of Carbon Dioxide and Steam in High Temperature Solid Oxide Electrolysis Cells </b>
 
 [1]: /team/jon-witt
